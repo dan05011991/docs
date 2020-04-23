@@ -156,7 +156,7 @@ var module1 = angular.module('app.module1', []);
 ```
 
 ## Result
-- JS and CSS files are bundled which require one a single include statement for each on the main html page
+- JS and CSS files are bundled requiring one include statement for each on the main html page
 - Each bundle include statement includes a cache busting version param to avoid the browser using its cache e.g. 
 ```html
 <script type="text/javascript" src="/css/vendorCSS.css?v=120703488947589432" />
