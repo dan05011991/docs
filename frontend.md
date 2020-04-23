@@ -1,7 +1,7 @@
 # Front end development & build process
 
 Issues with current process:
-- Front end and backend are coupled together which is considered bad very practice
+- Front end and backend are coupled together which is considered bad practice
 - 25 minute builds - take 3 developers doing 3 builds per day (under-estimate) thats thats 2 hours per day wasted
 - Karma tests launch a chrome window for each test - unnecessary and is either poor sequencing or using the wrong web driver (should be using phantom)
 - No JS/CSS/HTML bundling - loading time is very poor due to number of requests firing off when landing on the page.
