@@ -21,8 +21,8 @@ Run `./node_modules/gulp/bin/gulp serve` to serve the website
 Run `./node_modules/gulp/bin/gulp test` to run tests
 
 ## Possible issues and resolutions
-- SNAPSHOT version is displayed on the bottom of the page which is populated during the build phase.
--- Solution here is either to add an endpoint to allow the front end to query the backend for it's version or to pass the version of the backend into the front end container. There are probably other solutions but on the top of my head these 2 are viable (I prefer the first)
+* SNAPSHOT version is displayed on the bottom of the page which is populated during the build phase.
+** Solution here is either to add an endpoint to allow the front end to query the backend for it's version or to pass the version of the backend into the front end container. There are probably other solutions but on the top of my head these 2 are viable (I prefer the first)
 
 ## New tooling
 
