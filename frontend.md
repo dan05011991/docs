@@ -112,6 +112,7 @@ Watches all sources
 ### wiring (possible future enhancement - not required)
 - automatically add `require` statements in `app.js` for each module
 - automatically adds `controller`, `directive`, `config` and `factory` declarations for each module for all files listed in predefined folders. e.g:
+```
 - app.js
 - modules
 -- module1
@@ -124,6 +125,7 @@ Watches all sources
 ---- service1.js
 --- config
 ---- config1.js
+```
 
 `app.js`
 ```
