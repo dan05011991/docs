@@ -114,16 +114,16 @@ Watches all sources
 - automatically adds `controller`, `directive`, `config` and `factory` declarations for each module for all files listed in predefined folders. e.g:
 - app.js
 - modules
-- - module1
-- - - module1.js
-- - - controllers
-- - - - controller1.js
-- - - directives
-- - - - directive1.js
-- - - services
-- - - - service1.js
-- - - config
-- - - - config1.js
+-- module1
+--- module1.js
+--- controllers
+---- controller1.js
+--- directives
+---- directive1.js
+--- services
+---- service1.js
+--- config
+---- config1.js
 
 `app.js`
 ```
