@@ -2,7 +2,7 @@
 
 Issues with current process:
 - Front end and backend are coupled together which is considered bad practice
-- 25 minute builds - take 3 developers doing 3 builds per day (under-estimate) thats thats 2 hours per day wasted
+- 25 minute builds - e.g. 3 developers doing 3 builds per day (probably an under-estimate) that's 2 hours wasted per day. 
 - Karma tests launch a chrome window for each test - unnecessary and is either poor sequencing or using the wrong web driver (should be using phantom)
 - No JS/CSS/HTML bundling - loading time is very poor due to number of requests firing off when landing on the page.
 - No cache busting techniques being used so cache issues will be affecting user experience
