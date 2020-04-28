@@ -88,6 +88,10 @@ Example:
 - Release branches: release/release-1 (branching off develop - finishing by merging into develop and master)
 - Hotfix branches: hotfix/hotfix-1 (branching off master - finishing by merging into master)
 
+## Architecture 
+
+![Layout of jenkins instances](https://github.com/dan05011991/diagrams/raw/master/JenkinsPipeline.png)
+
 ## Build process
 
 Following sections outline steps (summarised) for each pipeline route.
