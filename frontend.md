@@ -27,7 +27,7 @@ Run `./node_modules/gulp/bin/gulp test` to run tests
 ## New tooling
 
 ### Gulp or Webpack
-- Gulp is a JS pre-processor which runs in node and executes various task. You can do anything you would be able to do 
+- Gulp is a JS pre-processor which runs in node and executes various tasks. You can do anything you would be able to do 
 in node so the options are endless. 
 - Webpack is used primarily for bundling but does have the ability to add plugins to match the capabilities of gulp.
 
