@@ -10,7 +10,7 @@ Solution will be to:
 - scale executors to a feasible number on each node and replicate this across available machines
 
 Known issues with this solution:
-- Tests have to be written to run in isolation - not share variables between tests
+- Tests have to be written to run in isolation - should not share variables between tests
 
 ## Solution
 
