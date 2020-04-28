@@ -26,7 +26,7 @@ Docker images to run a selenium hub and as many chrome nodes as possible across 
 - cleanup cycle = 5000 [5 seconds] (time interval between checking for hanging processes)
 - timeout = 10 [10 seconds] (if the web driver has received any more instructions in this time, the web driver is free'ed up to execute a waiting test)
 
-## Outline of solution
+## Architecture 
 
 ![Selenium hub layout](https://github.com/dan05011991/diagrams/raw/master/Selenium%20Hub.png)
 
