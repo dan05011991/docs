@@ -41,9 +41,9 @@ In this example we have 5 separate boxes, 1 running the selenium hub and the oth
 
 Total EC2 instances used: 5 (1 hub, 4 x chrome web drivers)
 
-#### Results
+### Results
 
-| # of Tests| Concurrent | Time taken  |
+| # of Tests| Concurrent | Time taken |
 |---|---|---|
 | 5 | N | 30s |
 | 5 | Y | 12s |
