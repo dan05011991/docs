@@ -36,7 +36,7 @@ In this example we have 5 separate boxes, 1 running the selenium hub and the oth
 
 ### Setup
 - Junit5 tests triggered on host (personal) machine
-- Chrome web drivers image deployed on AWS Centos 8 EC2 instances, 1 CPU and 1Gb RAM.
+- Chrome web driver images deployed on AWS Centos 8 EC2 instances, 1 CPU and 1Gb RAM.
 - Selenium hub image deployed on a separate EC2 instance.
 
 Total EC2 instances used: 5 (1 hub, 4 x chrome web drivers)
